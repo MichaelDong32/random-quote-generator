@@ -10,7 +10,7 @@ var thoughts = [
 
 ];
 
-
+// var quoteNum = Math.floor(Math.random()*(thoughts.length));
 var num = Math.random();
 console.log(num);
 totalQuotes = thoughts.length;
