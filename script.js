@@ -47,4 +47,8 @@ function loadQuote ()  // function to load a new quote
   //document.getElementById('quote').innerHTML = thoughts[quoteNum].quote; // using js
 
   lastQuoteNum = quoteNum
+
+  tweetLink = "https://twitter.com/intent/tweet?hashtags=thoughtoftheday&text=" + thoughts[quoteNum].quote + " - " + thoughts[quoteNum].from;
+
 }
+
